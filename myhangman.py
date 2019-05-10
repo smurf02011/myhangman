@@ -2,7 +2,7 @@ import random
 
 
 def hangman():
-    word list = ["python", "java", "computer", "hacker", "painter", "whiskey", "tequila"];
+    word_list = ["python", "java", "computer", "hacker", "painter", "whiskey", "tequila"];
     random_number = random.radiant(0,6)
     word = word_list[random_number]
     wrong_guesses = 0
